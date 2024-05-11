@@ -1,0 +1,137 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    padding-left: 80px;
+    background-size: cover;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logo:hover{
+    background-color: coral;
+    transition: ease-in-out;
+    transition-duration: 0.8s;
+    padding: 4px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.shara{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+.m1{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+button{
+    color: black;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 160px;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px;
+    margin-top: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 30px;
+    float: right;
+    margin-top: -10px;
+}
+.item1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+    transition: ease;
+    transition-duration: 0.5s;
+  
+}
+.item2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.item3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+.item4{
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ish{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+.man{
+    font-size: smaller;
+    color: white;
+
+}
+p{
+    color: white;
+    padding-left: 4px;
+    font-weight: bold;
+}
+.sd:hover{
+    transition: ease;
+    transition-duration: 0.4s;
+   padding: 4px;
+   margin: 7px;
+   position: relative;
+}
+.menu1 a:hover{
+    background-color: aqua;
+    transition: ease;
+    transition-duration: 0.8s;
+    padding: 7px;
+    border-radius: 8px;
+    color: darkblue;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+@media (min-width: 360px) and (max-width: 640px) {
+    .grid div {
+        height: 150px;
+        width: 400px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+}
